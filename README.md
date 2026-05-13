@@ -7,10 +7,10 @@ This repository contains the formal verification that the chromatic number of th
 The Hadwiger-Nelson Problem seeks the chromatic number of the Euclidean plane $\chi(\mathbb{R}^2)$, currently constrained to the set {5, 6, 7}. This paper establishes $\chi(\mathbb{R}^2) = 7$ through a proof by exclusion. Utilizing the de Bruijn–Erdős Theorem to relate the infinite plane to its finite subgraphs, we analyze a unit-distance path projected onto a circle of radius $r$. Via the Lean 4 interactive theorem prover, we formally verify that the irrationality of $2\pi$ relative to the unit chord length introduces an unavoidable phase drift that strictly bounds the angular density of any unit-safe color set below $\pi/3$. This density deficit creates a geometric conflict where a 6-color partition cannot cover the $2\pi$ circumference without forcing a monochromatic adjacency. These inherent periodic constraints allow for the mapping of the plane as a toroidal projection, which necessitates a 7th color to resolve the coverage gap. By scaling this local exclusion to the infinite plane via the de Bruijn–Erdős Theorem, we conclude that the chromatic number of the plane is exactly 7. A result that is fundamentally consistent with both the known 7-coloring of the discrete torus and the established upper bound provided by the hexagonal tiling of the plane. 
 
 <p align="center">
-  <img src="Hadwiger-Nelson-Formal-Proof.jpg" alt="Hadwiger-Nelson Formal Proof Visualized" width="800">
+  <img src="Gemini_Hadwiger_Nelson_Illustration.png" width="1000">
 </p>
 
-## ✅ Formal Verification in Lean Web 4
+## ✅ Formal Verification in Lean 4 Web
 
 The proof is formally verified using the **Lean 4 Interactive Theorem Prover**. The core mathematical claim, `coloring_collision`, proves that the density of any unit-safe 6-coloring is insufficient to cover the circle without a monochromatic adjacency.
 
