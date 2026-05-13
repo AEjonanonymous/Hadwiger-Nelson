@@ -24,5 +24,9 @@ You can verify the proof results directly in your browser via the Lean 4 Web Edi
 
 Reed, Jonathan ƒ(n). (2026). The Hadwiger-Nelson Problem: Formal Verification of the 7-Color Chromatic Number of the Plane via Toroidal Projection and the Irrationality of 2π (1.0). Zenodo. https://doi.org/10.5281/zenodo.20149767
 
+## ⚖️ License ⚖️
+
+This work is licensed under a **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
 ---
 [ORCID: 0009-0008-7345-1407](https://orcid.org/0009-0008-7345-1407)
