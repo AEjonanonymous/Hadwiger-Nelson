@@ -22,7 +22,7 @@ You can verify the proof results directly in your browser via the Lean 4 Web Edi
 ## 📂 Project Structure
 
 * 📝 **`The Hadwiger-Nelson Problem.pdf`**: The full manuscript detailing the toroidal projection methodology and the analytical derivation of the drift equation.
-* 💻 **`Hardwiger_Nelson_Final.lean`**: Lean 4 source code containing the formal definitions, the unit-triangle clique verification, and the final collision theorem.
+* 💻 **`Hadwiger_Nelson_Final.lean`**: Lean 4 source code containing the formal definitions, the unit-triangle clique verification, and the final collision theorem.
 
 ## 🎓 Citation
 
